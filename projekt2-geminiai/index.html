@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator finansowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Kalkulator finansowy</h1>
+
+    <form id="formularz">
+        <label for="kwota">Kwota:</label>
+        <input type="number" id="kwota" name="kwota" required>
+
+        <label for="oprocentowanie">Oprocentowanie (%):</label>
+        <input type="number" id="oprocentowanie" name="oprocentowanie" required>
+
+        <label for="okres">Okres (miesiące):</label>
+        <input type="number" id="okres" name="okres" required>
+
+        <label for="typObliczenia">Typ obliczenia:</label>
+        <select id="typObliczenia" name="typObliczenia">
+            <option value="cykliczne">Cykliczne</option>
+            <option value="pojedyncze">Pojedyncze</option>
+        </select>
+
+        <button type="submit">Oblicz</button>
+    </form>
+
+    <div id="wyniki"></div>
+    <div id="historia">
+        <h2>Historia</h2>
+        <ul id="historia-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

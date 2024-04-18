@@ -1,0 +1,57 @@
+/* Główny styl strony */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Formularz */
+#formularz {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Pola formularza */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Przycisk */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Wyniki */
+#wyniki {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Historia */
+#historia {
+    margin-top: 20px;
+}
+
+#historia-list {
+    list-style: none;
+    padding: 0;
+}
+
+#historia-list li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
